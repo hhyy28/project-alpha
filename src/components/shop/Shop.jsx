@@ -35,7 +35,7 @@ const Shop = () => {
   if (error) {
     return <div>Ошибка: {error.message}</div>;
   } else if (!isLoaded) {
-    return <div>Загрузка...</div>;
+    return <div>Загрузка с сервера...</div>;
   } else {
     return(
       <div className = {s.wrapp}>
